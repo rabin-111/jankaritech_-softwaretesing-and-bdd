@@ -1,0 +1,30 @@
+# in terms of sprint
+-> sprint is the small , time box period shows the amount of works
+
+
+step1: Business analyst takes the requirements and write user story and
+examples
+step2: amigos meeting to discuss the user stories and examples
+sstep3: the selected examples are documented in Gherkin\
+
+
+
+step 1 to step 3 is before sprint 
+
+
+
+step 4 : development
+step5: test execution
+step6: automation
+step7:  validation release 
+
+
+during sprint
+
+
+
+
+-------------------------------------------------------------------|     ---------------------------------------------------
+                            before sprint                            >                         during sprint                    >                             >
+-------------------------------------------------------------------|  ------------------------------------------------------
+
