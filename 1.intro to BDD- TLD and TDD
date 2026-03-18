@@ -10,7 +10,7 @@ test created-> tests executes(fails no code)-> write code to pass test -> refact
 ->extension of TDD
 ->like tdd we write test first and application code
 -> only differences betn them is bdd explains behaviour of application and are  more user-focused as it uses user stories.
--> documentation is written is shared language called gherkin
+-> documentation is written is shared language called gherkin/language by cucumber
 
 # example of login features
 feature - login
