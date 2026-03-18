@@ -1,0 +1,30 @@
+# TLD 
+-> Test last development
+ coding is completed ie dev.-> tests are created -> tests are executed
+
+# TDD
+-> Test driven development
+test created-> tests executes(fails no code)-> write code to pass test -> refactor test to remove redundancy
+
+# BDD
+->extension of TDD
+->like tdd we write test first and application code
+-> only differences betn them is bdd explains behaviour of application and are  more user-focused as it uses user stories.
+-> documentation is written is shared language called gherkin
+
+# example of login features
+feature - login
+userstory - as a user when i enter valid credentials i should be able to login and enter home page
+
+same story in gherkin looks like this: 
+feature : check login functionality
+scenario: give user is on login page -->prerequisitee
+when user enters valid credits -->Action
+
+and clicks on login button --> some more action
+navigated to homepage --> expected
+
+# Tools for bdd
+cucumber
+jbehave
+behat
