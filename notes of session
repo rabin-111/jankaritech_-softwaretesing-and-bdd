@@ -1,0 +1,122 @@
+Find bugs,ensures wuality
+Defects early detected
+Validate features
+Enchances security
+Improves performance
+
+Testing approach
+1.Static testing
+Before run time
+-Formatting/linting- analyses potential bugs and bad practices
+Consistent and readable brackets
+-code reviews
+2.dynamic testing 
+Execute bhaisakeysi
+-unit testing
+Smallest posible compontents twsted
+-integration when they r combined together work garxa ki nai
+
+-Api/UI
+Get req garda response, data recieve format and status haru
+Ui end to end testing from user perspective
+-performance/load
+How well system works
+How much traffic it can handle
+
+
+Testing types 
+1. Functional testing- validates features what system does smoke testing - system is alive or not running or love
+2. Non functional- quality , performance , ui ,usablity how well system does something performance security. 
+
+
+Principle of testing 
+1 testing is context dependent
+2 defect clustering 20-80
+Rules
+
+3 absense of errors fallacy
+Bug matra na bayera hudena user ko requirements fulfill
+
+4 exhaustive testing is impossible
+We cannot testing every combination of path ,inputs
+Goal is to test smart not everything
+
+5 testing shows presence of defects
+Never shows out system is bug free
+
+6 early testing
+Sakeysamma xito bug find
+
+7 pesticide paradox
+How pest deveop resitence
+Testai hamro test evolve garnu parxa eutai test matra garera hudena
+
+Applying software testing fundamentals
+-understand requirements
+-develop test cases
+-perform exploratory testing
+Be detective outside test cases
+-collaborative
+-use automation
+
+Test automation puramid
+-E2E
+End to end from user perspective
+Less and slowest 
+Simulate user interaction
+
+-integration
+Slowest and expensive
+-unit
+We do more,fastes, easiest ,cheapest
+
+Tdd 
+Right tract early bug
+
+
+
+Bdd
+
+User ko behaviour of user
+Extension of tdd
+2006 dan north
+
+Password protected websites
+-User story
+List of criteria to satisfy users
+-Acceptance criteria
+K k criteria satisfy garnu parxa user story 
+
+
+5 steps to automating test steps
+1. Describe the behaviour
+2. Write step definition-> 
+3. Run and fail
+4. Write code to make step pass
+5. Run and pass
+
+
+code->
+Cucumber—> testing framework
+Facilitates bdd
+
+
+Steps automation
+- method
+- -test framework reads and executes the last steps selenium ,playwright, jest
+
+
+
+Questions-
+As a cusumer
+He want to add the   products to shopping cart 
+So that he can order the product
+
+Scenior user trying to add a product  to shopping cart 
+Given shopping page
+And product info
+When valid user clicks the add to cart button
+Then product shown in shopping cart page
+And pay price to order the product
+
+
