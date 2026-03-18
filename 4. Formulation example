@@ -1,0 +1,10 @@
+here , a structured documentation is created using gherkin language 
+
+# same example of flight transaction
+Feature :  ticket booking 
+Scenario : hold tickets until a user completes the transaction process
+    Given : user is on ticket booking page --> precondition
+    When : user selects ticket             --> action
+    And : proceeds for payment             ->some more actions
+    Then : Keep the tickets blocked until user completes or cancels transaction          -> expected
+    
