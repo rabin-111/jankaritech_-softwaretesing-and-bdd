@@ -1,0 +1,16 @@
+# what is discovery workshop
+-> conversation between technical an business team to collaborate and discuss about desited behaviour for user story
+# example flight ticketbooking system
+motive of workshop-> when user selects the flight and navigates to the payment process, it keeps seats blocked until process is completed or cancelled
+
+in order to prepare this story for development wwe do the 3 amigos meetinf( meaning people from 3 disciples ie dev person , test person and product owner)
+there is convo betn them:
+example conversation : 
+product owner : for this we have to check and ensure that seats are blocked until process is cancelled or completed .
+dev: can u give example
+prod owner : yes, if john is using app to book ticket and he selectrs flight anf move to payment now seat should be blocked and shouldnot be available
+tester : should we keep a time limit for transcation and what if the flight got cancelled or delayed
+ and convo goes on and finally results to agreed behaviour of the system 
+
+
+ 
